@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: silver_bookings
+    columns:
+      - name: booking_id
+        tests:
+          - unique
+          - not_null
+  - name: silver_listings
+    columns:
+      - name: listing_id
+        tests:
+          - unique
+          - not_null
+  - name: silver_hosts
+    columns:
+      - name: host_id
+        tests:
+          - not_null

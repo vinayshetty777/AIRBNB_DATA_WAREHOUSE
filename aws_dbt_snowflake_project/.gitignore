@@ -1,0 +1,9 @@
+
+target/
+dbt_packages/
+logs/
+.env
+profiles.yml
+ExampleProfile.yml
+.user.yml
+ExampleProfiles.yml
